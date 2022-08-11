@@ -2,7 +2,7 @@ import json
 import time
 import selenium.webdriver
 from bs4 import BeautifulSoup
-
+# 1126800
 if __name__ == '__main__':
     with open("./answer_id.json", "r") as f:
         question_answer_id: dict = json.load(f)

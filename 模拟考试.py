@@ -3,8 +3,6 @@ import selenium.webdriver
 from bs4 import BeautifulSoup
 import json
 
-# : "[0-9]*"
-
 if __name__ == '__main__':
     selector = 0
     with open("./answer_id.json", 'r', encoding="utf-8") as f:
